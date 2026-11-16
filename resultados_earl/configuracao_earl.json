@@ -1,0 +1,83 @@
+{
+    "versao": "EARL",
+    "features": [
+        "Header_Length",
+        "Protocol Type",
+        "Time_To_Live",
+        "Rate",
+        "psh_flag_number",
+        "ece_flag_number",
+        "cwr_flag_number",
+        "ack_count",
+        "syn_count",
+        "fin_count",
+        "rst_count",
+        "HTTP",
+        "HTTPS",
+        "DNS",
+        "Telnet",
+        "SMTP",
+        "SSH",
+        "IRC",
+        "TCP",
+        "UDP",
+        "DHCP",
+        "ICMP",
+        "IGMP",
+        "IPv",
+        "Tot sum",
+        "Min",
+        "Max",
+        "Std",
+        "IAT",
+        "Variance"
+    ],
+    "sementes": [
+        8,
+        42,
+        167,
+        800,
+        1992
+    ],
+    "percentil": 90,
+    "epocas": 80,
+    "batch_size": 512,
+    "beta": 0.5,
+    "ruido_fixo": 0.03,
+    "ruido_min": 0.005,
+    "ruido_max": 0.03,
+    "epocas_aquecimento": 20,
+    "fpr_maxima": 0.105,
+    "configuracoes": [
+        {
+            "nome": "AEC-REF",
+            "ruido": "nenhum",
+            "lambda": 0.0
+        },
+        {
+            "nome": "AE-PE",
+            "ruido": "fixo",
+            "lambda": 0.0
+        },
+        {
+            "nome": "AE-PECL-005",
+            "ruido": "fixo",
+            "lambda": 0.005
+        },
+        {
+            "nome": "AE-PECL-010",
+            "ruido": "fixo",
+            "lambda": 0.01
+        },
+        {
+            "nome": "AE-PECL-020",
+            "ruido": "fixo",
+            "lambda": 0.02
+        },
+        {
+            "nome": "AE-PECL-PROG",
+            "ruido": "progressivo",
+            "lambda": 0.01
+        }
+    ]
+}

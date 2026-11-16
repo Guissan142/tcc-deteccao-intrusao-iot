@@ -1,0 +1,2 @@
+modelo,semente,arquitetura,parametros,funcao_perda,otimizador,learning_rate,batch_size,epochs_max,epochs_executadas,melhor_val_loss,percentil,limiar,fpr_validacao_benigna,tempo_treinamento_s,tensorflow,python
+AEC-REF,1992,"[30, 32, 16, 6, 16, 32, 30]",3268,MSE,Adam,0.001,512,80,80,0.015596368350088596,90,0.03568408265709877,0.10284435366463136,132.05462660011835,2.22.0-rc0,3.14.7

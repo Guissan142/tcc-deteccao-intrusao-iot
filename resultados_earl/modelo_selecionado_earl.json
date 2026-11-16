@@ -1,0 +1,13 @@
+{
+    "Modelo": "AE-PECL-010",
+    "Semente": 1992,
+    "Percentil": 90,
+    "Limiar": 0.03220459216309524,
+    "Lambda": 0.01,
+    "Beta": 0.5,
+    "Recall_medio": 0.5198112070212664,
+    "Recall_std": 0.023395299756692592,
+    "F1_medio": 0.67141794222703,
+    "FPR_max": 0.10256187392712023,
+    "Parametros": 3268
+}

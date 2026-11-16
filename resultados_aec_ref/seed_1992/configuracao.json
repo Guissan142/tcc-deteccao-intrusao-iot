@@ -1,0 +1,27 @@
+{
+    "modelo": "AEC-REF",
+    "semente": 1992,
+    "arquitetura": [
+        30,
+        32,
+        16,
+        6,
+        16,
+        32,
+        30
+    ],
+    "parametros": 3268,
+    "funcao_perda": "MSE",
+    "otimizador": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 512,
+    "epochs_max": 80,
+    "epochs_executadas": 80,
+    "melhor_val_loss": 0.015596368350088596,
+    "percentil": 90,
+    "limiar": 0.03568408265709877,
+    "fpr_validacao_benigna": 0.10284435366463136,
+    "tempo_treinamento_s": 132.05462660011835,
+    "tensorflow": "2.22.0-rc0",
+    "python": "3.14.7"
+}

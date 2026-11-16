@@ -1,0 +1,15 @@
+# Datasets grandes
+planilhas_mistas/
+Merged*.csv
+dataset_preparado.csv
+dataset_rotulos.csv
+dataset_treino_benigno.csv
+
+# Arquivos compactados
+*.rar
+*.zip
+
+# Arquivos temporários Python
+__pycache__/
+*.pyc
+.venv/

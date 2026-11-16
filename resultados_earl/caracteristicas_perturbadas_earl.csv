@@ -1,0 +1,31 @@
+Feature,Escala_ruido,Perturbada
+Header_Length,0.44478002,True
+Protocol Type,0.0,False
+Time_To_Live,0.70101196,True
+Rate,0.33556792,True
+psh_flag_number,0.0,False
+ece_flag_number,0.0,False
+cwr_flag_number,0.0,False
+ack_count,0.49420002,True
+syn_count,0.1,True
+fin_count,0.1,True
+rst_count,0.1,True
+HTTP,0.0,False
+HTTPS,0.0,False
+DNS,0.0,False
+Telnet,0.0,False
+SMTP,0.0,False
+SSH,0.0,False
+IRC,0.0,False
+TCP,0.0,False
+UDP,0.0,False
+DHCP,0.0,False
+ICMP,0.0,False
+IGMP,0.0,False
+IPv,0.0,False
+Tot sum,0.28406247,True
+Min,0.98840004,True
+Max,0.683776,True
+Std,0.6316431,True
+IAT,0.69348484,True
+Variance,0.31179744,True
